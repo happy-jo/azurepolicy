@@ -61,5 +61,5 @@ A policy for each resource type listed below is included as part of the ARM temp
 
 ## Deploying via PowerShell
 ````powershell
-New-AzDeployment -Name "diagPolicies" --location australiasoutheast -TemplateFile .\policy.definition.azuredeploy.json -verbose
+New-AzDeployment -Name "diagPolicies" -location australiasoutheast -TemplateFile .\policy.definition.azuredeploy.json -verbose
 ````
